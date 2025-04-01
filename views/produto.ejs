@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+<body>
+    <%- include("partials/navbar.ejs") %>
+    <div class="container">
+        <h1><%= produto.nome %></h1>
+        <p><%= produto.descricao %></p>
+        <p><strong>Preço:</strong> <%= produto.preco %></p>
+        <img src="<%= produto.image %>" alt="<%= produto.nome %>" class="img-fluid">
+        <br>
+        <a href="/" class="btn btn-primary">Voltar</a>
+        <a href="/"
+        <button class="delete-btn" onclick="deleteCard('cardId')">Deletar</button>
+    </div>
+    <script src="script.js"></script>
+    </div>
+</body>
+<%- include("partials/footer.ejs") %>

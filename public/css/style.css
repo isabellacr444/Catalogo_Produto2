@@ -1,0 +1,217 @@
+/* Resetando alguns estilos básicos */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Um azul claro, suave */
+    color: #333; /* Cor do texto */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000; /* Azul mais escuro para o cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navegação */
+nav {
+    background-color: #94d2bd; /* Azul suave para a barra de navegação */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    margin: 0 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #005f73; /* Azul mais escuro para hover */
+    color: white;
+}
+
+/* Secções principais */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+section h2 {
+    color: #005f73; /* Azul mais escuro para títulos */
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Parágrafos e textos */
+section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Cards de produtos ou artigos */
+.card {
+    background-color: #e0fbfc; /* Azul bem claro para cards */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #005f73;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #005f73; /* Azul escuro para o rodapé */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+}
+/* Resetando alguns estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #e0fbfc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #005f73;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
