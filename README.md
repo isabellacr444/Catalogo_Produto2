@@ -1,6 +1,6 @@
                            Projeto loja de artesanato
-Formulário com JavaScript 
-O novo sistema de catálogo online permite que você mostre todos os nossos produtos de forma clara e organizada. Os clientes podem visualizar imagens, descrições e preços de maneira simples, sem a necessidade de folhear um catálogo impresso. Cada produto é exibido com todos os detalhes necessários para facilitar a decisão de compra e modernizar a interface do site, para que aqueles que utilizarem o site tenha uma experiência divertida. E para isso acontecer, foi necessário utilizar o JavaScript e o mysql para o banco de dados. 
+Formulário com JavaScript: 
+  O novo sistema de catálogo online permite que você mostre todos os nossos produtos de forma clara e organizada. Os clientes podem visualizar imagens, descrições e preços de maneira simples, sem a necessidade de folhear um catálogo impresso. Cada produto é exibido com todos os detalhes necessários para facilitar a decisão de compra e modernizar a interface do site, para que aqueles que utilizarem o site tenha uma experiência divertida. E para isso acontecer, foi necessário utilizar o JavaScript e o mysql para o banco de dados. 
 Acompanhe o nosso passo a passo: 
 A utilização do sistema baseado em Node.js, MySQL e Sequelize garante que a loja tenha um sistema robusto e eficiente, capaz de armazenar, atualizar e exibir os produtos de forma rápida e segura. Isso facilita a gestão interna e oferece uma plataforma estável para seus clientes.
 
@@ -27,7 +27,7 @@ A utilização do sistema baseado em Node.js, MySQL e Sequelize garante que a lo
 •	Index.js = Informações para o mysql. / Definimos o nosso local host: 4000
 •	App.js = Informações para o servidor rodar. 
 
-As maiores dificuldades foram fazer o site funcionar de fato com problemas no app.js, de maneira objetiva e organizada arrumamos os erros com ajuda do Body-parser e inteligência artificial com uso consciente. Executamos usando:
+  As maiores dificuldades foram fazer o site funcionar de fato com problemas no app.js, de maneira objetiva e organizada arrumamos os erros com ajuda do Body-parser e inteligência artificial com uso consciente. Executamos usando:
 PS C:\Users\DEV_SEDUC_A\Documents\Catalogo_Produto2> node --watch .\index.js 
 Restarting '.\\index.js'
 App rodando na porta 4000! 
@@ -39,7 +39,7 @@ Descrição-> Informação mais precisa sobre o produto;
  Preço-> Valor a ser pago;
  Imagem-> URL da imagem;
 Salvar-> Salva as informações.;
-Foi um processo longo com muitos desafios e erros, mas com muita persistência conseguimos fazer um site completo com alta qualidade para nossos clientes tendo uma interface com catálogos de produtos bem divertido.
+  Foi um processo longo com muitos desafios e erros, mas com muita persistência conseguimos fazer um site completo com alta qualidade para nossos clientes tendo uma interface com catálogos de produtos bem divertido.
 
 Escola: Senai Luiz Varga
 Curso: Desenvolvimento de Sistemas 
